@@ -1,0 +1,41 @@
+{
+  "$schemaVersion": "2.0.0",
+  "$schema": "https://canonical.o3de.org/o3de-repo-2.0.0.json",
+  "repo": {
+    "name": "org.o3de.repo.openparticlesystem",
+    "display_name": "Openparticlesystem Family Repo",
+    "description": "Family repository for the Openparticlesystem gem: the gem plus one overlay per platform, hoisted from the engine with full git history.",
+    "type": "repo"
+  },
+  "origin": {
+    "name": "Open 3D Engine - o3de.org",
+    "url": "https://github.com/o3de/o3de"
+  },
+  "canonical_tags": [
+    "Repo"
+  ],
+  "children": {
+    "engines": [],
+    "projects": [],
+    "gems": [
+      "Gems/OpenParticleSystem/gem.2-0-0.json"
+    ],
+    "templates": [],
+    "repos": [],
+    "overlays": [
+      "Overlays/openparticlesystem.android/overlay.json",
+      "Overlays/openparticlesystem.ios/overlay.json",
+      "Overlays/openparticlesystem.linux/overlay.json",
+      "Overlays/openparticlesystem.mac/overlay.json",
+      "Overlays/openparticlesystem.windows/overlay.json"
+    ]
+  },
+  "remote": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  }
+}

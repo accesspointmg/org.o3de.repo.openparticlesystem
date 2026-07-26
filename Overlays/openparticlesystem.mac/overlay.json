@@ -1,0 +1,23 @@
+{
+  "$schemaVersion": "2.0.0",
+  "$schema": "https://canonical.o3de.org/o3de-overlay-2.0.0.json",
+  "overlay": {
+    "name": "org.o3de.overlay.openparticlesystem.mac",
+    "version": "0.0.0",
+    "display_name": "openparticlesystem Mac",
+    "description": "Mac platform delivery for the openparticlesystem gem, composed into the gem tree at workspace compose time.",
+    "type": "code"
+  },
+  "extends": "org.o3de.gem.openparticlesystem>=0.0.0",
+  "precedence": 10,
+  "origin": {
+    "name": "Open 3D Engine - o3de.org",
+    "url": "https://github.com/o3de/o3de"
+  },
+  "canonical_tags": [
+    "Overlay"
+  ],
+  "platforms": [
+    "Mac"
+  ]
+}
