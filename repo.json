@@ -39,7 +39,7 @@
     "overlays": []
   },
   "source_control": {
-    "git": "https://github.com/accesspointmg/o3de-openparticlesystem.git",
+    "git": "https://github.com/accesspointmg/org.o3de.repo.openparticlesystem.git",
     "branch": "2.0.0"
   }
 }
