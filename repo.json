@@ -4,16 +4,12 @@
     "repo": {
         "name": "org.o3de.repo.openparticlesystem",
         "display_name": "Openparticlesystem Family Repo",
-        "description": "Family repository for the Openparticlesystem gem: the gem plus one overlay per platform, hoisted from the engine with full git history.",
-        "type": "repo"
+        "description": "Family repository for the Openparticlesystem gem: the gem plus one overlay per platform, hoisted from the engine with full git history."
     },
     "origin": {
         "name": "Open 3D Engine - o3de.org",
         "url": "https://github.com/o3de/o3de"
     },
-    "canonical_tags": [
-        "Repo"
-    ],
     "children": {
         "engines": [],
         "projects": [],
